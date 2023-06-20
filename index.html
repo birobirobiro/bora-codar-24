@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ajustes de Iluminação</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet" />
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <script src="./main.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <div class="preview"></div>
+
+    <span>Ajustes de Iluminação</span>
+
+    <div class="controls">
+      <div class="hue">
+        <i class="ph-thin ph-palette"></i>
+
+        <div>
+          <input type="range" id="hue-slider" min="0" max="360" step="1" value="0" />
+        </div>
+      </div>
+
+      <div class="brightness">
+        <i class="ph-thin ph-sun"></i>
+
+        <div>
+          <input type="range" id="brightness-slider" min="0" max="100" step="1" value="100" />
+        </div>
+      </div>
+
+      <div class="contrast">
+        <i class="ph-thin ph-circle-half"></i>
+
+        <div>
+          <input type="range" id="contrast-slider" min="0" max="100" step="1" value="100" />
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
